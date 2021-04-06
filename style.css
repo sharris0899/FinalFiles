@@ -169,7 +169,6 @@ color: white;
 
 .signup-form {
   /* position: relative; */
-
   display: flex;
   align-items: center;
 }
@@ -183,11 +182,13 @@ color: white;
   font-weight: 700;
   letter-spacing: 0.1rem;
   color: #a79a2d;
+    background-color: #000000;
   /*add an img here to change the background to the "enter your email" box*/
 }
 
 .signup-form-input::placeholder {
   color: #a79a2d;
+
 
 }
 
@@ -196,7 +197,7 @@ color: white;
   left: -4.5rem;
   width: 4rem;
   height: 4rem;
-  background-color: #333;
+  background-color: #000000;
   color: #a79a2d;
   border: none;
   font-size: 1.8rem;

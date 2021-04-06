@@ -107,6 +107,9 @@ html {
 /* End of Navbar */
 
 /* Section 1 */
+.background{
+background-color: black;
+}
 
 .section-1 {
 text-align: center;
@@ -130,9 +133,7 @@ color: white;
   transform: translate(-50%, -50%) scale(1);
   transition: transform 0.3s 0.3s;
 }
-.background{
-background-color: black;
-}
+
 /* End of Section 1 */
 
 

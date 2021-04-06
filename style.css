@@ -129,25 +129,39 @@ html {
 /* End of Navbar */
 
 /* Section 1 */
+
 .section-1 {
-  width: 100%;
-  height: 100vh;
-  background-color: #a012b3;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
+text-align: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
 }
 
+.section-1-icons i {
+  font-size: 35rem;
+  color: #a79a2d;
+  position: absolute;
+  transform: translate(-50%, -50%) scale(0);
+  text-shadow: 0.2rem 0.2rem 0.2rem #000;
+  transition: transform 0.3s;
+}
+
+.section-1-icons i.change {
+  transform: translate(-50%, -50%) scale(1);
+  transition: transform 0.3s 0.3s;
+}
 /* End of Section 1 */
 
 
 /* Section 4 */
 
+
 .section-4 {
   width: 100%;
   height: 30vh;
-  background-color: #a012b3;
+  background-color: #222;
   display: flex;
   justify-content: space-around;
   padding: 3rem 0;
@@ -163,15 +177,17 @@ html {
   font-size: 4rem;
   font-weight: 900;
   color: #a79a2d;
+
 }
 
 .section-4-paragraph {
   font-size: 1.5rem;
-  color: #888;
+  color: #03fc73;
 }
 
 .signup-form {
   /* position: relative; */
+
   display: flex;
   align-items: center;
 }
@@ -185,10 +201,12 @@ html {
   font-weight: 700;
   letter-spacing: 0.1rem;
   color: #a79a2d;
+  /*add an img here to change the background to the "enter your email" box*/
 }
 
 .signup-form-input::placeholder {
   color: #a79a2d;
+
 }
 
 .signup-form-btn {
@@ -204,7 +222,9 @@ html {
 }
 
 .copyright {
+
   position: absolute;
+
   bottom: 3rem;
   font-size: 1.7rem;
   font-weight: 200;
